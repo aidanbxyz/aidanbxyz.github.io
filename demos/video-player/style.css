@@ -1,0 +1,33 @@
+body {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	background-color: #009aff;
+	background-image: linear-gradient(to right, red, #009aff);
+}
+video {
+	width: 50%;
+	padding: 10px 10px;
+	background-color: black;
+}
+
+video:hover {
+	background-color: white;
+}
+
+video:active {
+	background-color: #009aff;
+}
+
+button {
+	padding: 10px 10px;
+	transition-duration: 500ms;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+button:hover {
+	padding: 15px 15px;
+	background-color: #000000;
+	color: #ffffff;
+}
