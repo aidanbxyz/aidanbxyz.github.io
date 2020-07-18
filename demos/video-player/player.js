@@ -65,12 +65,6 @@ function back() {
 	timeset();
 }
 
-function sizeSm() {
-	var player = document.getElementById('player');
-	player.style.width = "75%";
-	timeset();
-}
-
 function playerfs() {
 	var player = document.getElementById('player');
 	if (player.requestFullscreen) {
