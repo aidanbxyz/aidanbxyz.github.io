@@ -1,0 +1,30 @@
+* {
+	font-family: monospace;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
+
+body {
+	width: 99vw;
+	height: 99vh;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+textarea {
+	background-color: #1a1a1a;
+	color: #ffffff !important;
+}
+
+button {
+	background-color: #ffffff;
+	color: #000000 !important;
+	box-shadow: 3px 3px #000000, 2px 2px #000000, 1px 1px #000000;
+	transition-duration: 100ms;
+}
+
+button:hover {
+	box-shadow: 0px 0px;
+	transform: translate(3px, 3px);
+}

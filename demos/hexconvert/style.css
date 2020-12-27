@@ -1,0 +1,34 @@
+body {
+  height: 99vh;
+  width: 99vw;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+* {
+  font-family: 'Cutive Mono', monospace;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 3px 3px, 2px 2px, 1px 1px;
+  transition-duration: 100ms;
+}
+
+button:hover {
+  box-shadow: 0px 0px, 0px 0px, 0px 0px;
+  transform: translate(3px, 3px);
+}
+
+textarea {
+  box-shadow: 3px 3px;
+}
+
+hr {
+  box-shadow: 1px 1px;
+}

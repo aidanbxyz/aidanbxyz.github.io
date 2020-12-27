@@ -1,0 +1,51 @@
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+video {
+    width: 45%;
+    padding: 10px 10px;
+    background-color: black;
+}
+
+video:hover {
+    background-color: white;
+}
+
+video:active {
+    background-color: #009aff;
+}
+
+button {
+    padding: 10px 10px;
+    box-shadow: 3px 3px;
+    transition-duration: 500ms;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#plpau {
+    border-radius: 50%;
+}
+
+button:not(#plpau) {
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: 0px 0px;
+    transform: translate(3px, 3px);
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button:active {
+    padding: 15px 15px;
+}
+
+button[id*='op'] {
+    display: none;
+}
